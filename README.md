@@ -14,10 +14,10 @@ A high-performance C compiler designed to optimize and compile code directly for
 ### Precompiled Binaries
 If you want to use the compiler without building it from source, you can download the ready-to-use installers (including .deb packages for Linux and install.exe for Windows) from our website:
 
-[Download Precompiled Binaries](https://URL)
+[Download Precompiled Binaries](https://OgccCompiler.github.io/)
 
 ### Building From Source
-Before building the compiler, ensure you have a host C compiler (GCC or Clang), CMake (Version 3.10 or higher), and your target GPU SDKs installed.
+Before building the compiler, ensure you have a host C++ compiler (GCC or Clang), and your target GPU SDKs installed.
 
 Clone the repository and build the project:
 
@@ -45,6 +45,10 @@ Contributions are welcome. Since this project is licensed under the LGPLv2.1, pl
 4. Open a Pull Request.
 
 Note: Modifying the core compiler toolchain requires those specific changes to remain open source under the LGPLv2.1 terms.
+
+## Features
+- [ ] Phraser
+- [ ] Assembler
 
 ## License
 This project is licensed under the GNU Lesser General Public License v2.1 (LGPLv2.1). See the LICENSE file for details.
